@@ -1,6 +1,7 @@
 import random 
 # Constants 
 MISSION_TYPES = ["Exploration", "Diplomacy", "Combat", "Rescue", "Scientific Research"] 
+RACE_TYPES=["Andorian","Bajoran","Cardassian","Borg","Breen"]
 # Ship systems, resources, and crew 
 ship = { 
 		"systems": { 
@@ -79,7 +80,8 @@ def run_mission(score):
 		score+=5 
 		return score
 	elif(mission_type=="Diplomacy"):
-		
+
+
 
 
 
